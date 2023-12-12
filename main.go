@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"net/http"
 
 	"github.com/labstack/echo"
@@ -13,5 +14,6 @@ func main() {
 			return c.String(http.StatusOK, "Hello, World!")
 		},
 	)
+	fmt.Println(111)
 	e.Logger.Fatal(e.Start(":1323"))
 }

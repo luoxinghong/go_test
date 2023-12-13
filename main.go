@@ -14,6 +14,6 @@ func main() {
 			return c.String(http.StatusOK, "Hello, World!")
 		},
 	)
-	fmt.Println("测试合并lxh分支到dev")
+	fmt.Println("分支lxh")
 	e.Logger.Fatal(e.Start(":6666"))
 }

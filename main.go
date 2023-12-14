@@ -14,6 +14,6 @@ func main() {
 			return c.String(http.StatusOK, "Hello, World!")
 		},
 	)
-	fmt.Println(111)
-	e.Logger.Fatal(e.Start(":1323"))
+	fmt.Println("分支lxh")
+	e.Logger.Fatal(e.Start(":6666"))
 }
